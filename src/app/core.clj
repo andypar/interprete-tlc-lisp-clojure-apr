@@ -1,6 +1,4 @@
-(ns app.core)(:gen-class :main true)
-
-
+(ns app.core (:gen-class :main true))
 
 (require '[clojure.string :refer [blank? ends-with? lower-case]] '[clojure.java.io :refer [reader]])
 
