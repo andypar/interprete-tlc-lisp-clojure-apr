@@ -1,22 +1,29 @@
-# app
+# **Intérprete de TLC-LISP en Clojure**
 
-A Clojure library designed to ... well, that part is up to you.
+## Actualmente,  TLC-LISP ya no  se  comercializa  más  y,   en  consecuencia,  para  utilizar  el  software  existente desarrollado en él, se desea construir en este trabajo práctico un intérprete que corra en la JVM (Java Virtual Machine). Por ello, el lenguaje elegido para su implementación es Clojure. Deberá  poder  cargarse  y  correrse  el  siguiente  Sistema  de  Producción,  que  resuelve  el  problema  de  obtener 4 litros de líquido utilizando dos jarras lisas (sin escala), una de 5 litros y otra de 8 litros. (Ver 07 - TP 2022.pdf)
 
-## Usage
+### 1) TUTORIAL:
 
-FIXME
+`lein run`
+`(load 'demo)`
+`(exit)`
 
-## License
+### 2) TESTS:
 
-Copyright © 2022 FIXME
+`lein test`
 
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
+### 3) JARRAS:
 
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+`lein run`
+`(load 'jarras)`
+`(breadth-first bc)`
+`(0 0)`
+`(0 4)`
+`(exit)`
+
+### 4) EJECUTABLE COMPILADO:
+
+`java -jar app-0.1.0-SNAPSHOT-standalone.jar`
+
+
+ 
