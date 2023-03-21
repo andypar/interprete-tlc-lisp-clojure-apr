@@ -4,26 +4,26 @@
 
 ### 1) TUTORIAL:
 
-`lein run`
-`(load 'demo)`
-`(exit)`
+`lein run`<br>
+`(load 'demo)`<br>
+`(exit)`<br>
 
 ### 2) TESTS:
 
-`lein test`
+`lein test`<br>
 
 ### 3) JARRAS:
 
-`lein run`
-`(load 'jarras)`
-`(breadth-first bc)`
-`(0 0)`
-`(0 4)`
-`(exit)`
+`lein run`<br>
+`(load 'jarras)`<br>
+`(breadth-first bc)`<br>
+`(0 0)`<br>
+`(0 4)`<br>
+`(exit)`<br>
 
 ### 4) EJECUTABLE COMPILADO:
 
-`java -jar app-0.1.0-SNAPSHOT-standalone.jar`
+`java -jar app-0.1.0-SNAPSHOT-standalone.jar`<br>
 
 
  
